@@ -68,7 +68,7 @@ export default function Nav() {
         }}
           onMouseEnter={e => { e.target.style.background = '#e8d08a'; }}
           onMouseLeave={e => { e.target.style.background = '#c9a84c'; }}
-        >COMMANDER</a>
+        >PROCHAINEMENT DISPONIBLE</a>
       </div>
     </nav>
   );

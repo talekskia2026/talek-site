@@ -41,7 +41,6 @@ export default function Collection() {
                 <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 9, letterSpacing: '0.3em', color: '#c9a84c', marginBottom: 8 }}>{products[0].id}</div>
                 <div style={{ fontSize: 24, fontWeight: 300, fontStyle: 'italic', marginBottom: 4 }}>{products[0].name}</div>
                 <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 11, color: 'rgba(245,240,232,0.6)', marginBottom: 12, fontWeight: 300 }}>{products[0].desc}</div>
-                <div style={{ fontFamily: 'Tenor Sans, sans-serif', fontSize: 18, color: '#c9a84c' }}>{products[0].price}</div>
               </div>
             </div>
           </div>
@@ -58,7 +57,6 @@ export default function Collection() {
                   <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 8, letterSpacing: '0.3em', color: '#c9a84c', marginBottom: 4 }}>{p.id}</div>
                   <div style={{ fontSize: 18, fontWeight: 300, fontStyle: 'italic', marginBottom: 2 }}>{p.name}</div>
                   <div style={{ fontFamily: 'Montserrat, sans-serif', fontSize: 10, color: 'rgba(245,240,232,0.6)', fontWeight: 300 }}>{p.desc}</div>
-                  <div style={{ fontFamily: 'Tenor Sans, sans-serif', fontSize: 16, color: '#c9a84c', marginTop: 8 }}>{p.price}</div>
                 </div>
               </div>
             </div>
