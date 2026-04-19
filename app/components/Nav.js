@@ -14,7 +14,7 @@ export default function Nav() {
 
   const links = ['Collection', 'A propos', 'Savoir-faire', 'Contact'];
 
-  return (h
+  return (
         <nav style={{
           position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000,
           padding: scrolled ? '12px 48px' : '24px 48px',
