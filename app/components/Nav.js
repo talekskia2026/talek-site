@@ -14,7 +14,7 @@ export default function Nav() {
 
   const links = ['Collection', 'A propos', 'Savoir-faire', 'Contact'];
 
-  return (
+  return (h
         <nav style={{
           position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000,
           padding: scrolled ? '12px 48px' : '24px 48px',
@@ -32,7 +32,7 @@ export default function Nav() {
           width={52}
           height={52}
           style={{
-                        filter: 'brightness(0) sepia(1) saturate(3) hue-rotate(5deg) brightness(0.85)',
+                        filter: 'invert(1) sepia(1) saturate(2) hue-rotate(5deg) brightness(0.9)',
                         objectFit: 'contain',
           }}
           priority
