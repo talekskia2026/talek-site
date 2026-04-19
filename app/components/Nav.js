@@ -29,8 +29,8 @@ export default function Nav() {
         <Image
           src="/images/logo-tk.jpg"
           alt="TALEK Maison de Couture"
-          width={52}
-          height={52}
+          width={90}
+          height={90}
           style={{
                         filter: 'invert(1) sepia(1) saturate(2) hue-rotate(5deg) brightness(0.9)',
                         objectFit: 'contain',
